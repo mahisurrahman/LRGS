@@ -2,13 +2,13 @@ import React from "react";
 
 const Activities = ({ data }) => {
   return (
-    <div className="md:h-[85vh] flex items-center justify-center w-full">
+    <div className="md:h-[85vh]  flex items-center justify-center w-full">
       <div className="">
         <h2 className="text-center font-extrabold text-6xl">
           ACTIVITIES
         </h2>
         <div className="pt-5">
-          <p className="text-center text-wrap text-lg md:text-lg lg:text-xl font-semibold tracking-widest   ">
+          <p className="text-center text-wrap text-sm md:text-lg lg:text-xl font-semibold tracking-widest   ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
             <br /> Lorem Ipsum has been the industry's standard dummy text ever
