@@ -11,7 +11,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-900"
+            ? " text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
@@ -23,7 +23,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-900"
+            ? " text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
@@ -35,7 +35,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-900"
+            ? " text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
@@ -47,7 +47,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-900"
+            ? " text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
