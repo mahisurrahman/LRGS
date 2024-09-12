@@ -1,37 +1,40 @@
 import React from 'react'
+import img1 from '../../../public/Activitis/teacher.jpg'
+import img2 from '../../../public/Activitis/manicarft.jpg'
+import img3 from '../../../public/Activitis/robot.jpg'
+import img4 from '../../../public/Activitis/penang.jpg'
+import Activities from './Activities'
 
 
-"data" [
-    {
-      "id": 1,
-      "title": "Teachers WorkShop",
-      "image": "path/to/morning_yoga.jpg",
-    },
-    {
-      "id": 2,
-      "title": "Minecraft WorkShop",
-      "image": "path/to/coding_workshop.jpg",
-    },
-    {
-      "id": 3,
-      "title": "Cooking Class",
-      "image": "path/to/cooking_class.jpg",
-      "description": "Master the art of Italian cuisine.",
-      "status": "Completed"
-    },
-    {
-      "id": 4,
-      "title": "Art Therapy",
-      "image": "path/to/art_therapy.jpg",
-      "description": "Unwind with a creative painting session.",
-      "status": "Canceled"
-    }
-  ]
+
 
 
 const ActivitesData = () => {
+  const data = [
+    {
+      title: "Teachers WorkShop",
+      image: img1,
+    },
+    {
+      title: "Minecraft WorkShop",
+      image: img2,
+    },
+    {
+      title: "Robotics WorkShop",
+      image: img3,
+    },
+    {
+      title: "Workshop in Penang",
+      image: img4,
+    }
+  ]
   return (
-    <div>ActivitesData</div>
+    <div>
+     <Activities data={data}/>
+    
+  
+
+    </div>
   )
 }
 
