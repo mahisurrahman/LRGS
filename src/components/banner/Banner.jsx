@@ -3,7 +3,7 @@ import moheLogo from "../../../public/logo.png";
 
 function Banner() {
   return (
-    <div className='h-[85vh] bg-gray-300'>
+    <div className='h-[85vh] bg-gray-200'>
         <div className='mx-10 grid grid-cols-2'>
             <div>
 

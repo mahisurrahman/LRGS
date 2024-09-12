@@ -56,7 +56,7 @@ function Navbar() {
     </div>
   );
   return (
-    <div className="h-[15vh] w-full bg-gray-300 text-black flex items-center">
+    <div className="h-[15vh] w-full bg-gray-200 text-black flex items-center">
       <div className="w-full grid grid-cols-3 mx-10">
         <div className="col-span-1">
           <img src={universityLogo} className="w-72 h-60" alt="" />
