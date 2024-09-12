@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 
 function HomeLayouts() {
   return (
-    <div className='font-jetBrains'>
+    <div className='font-lato'>
       <Navbar/>
       <Outlet></Outlet> 
       <Footer/> 

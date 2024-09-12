@@ -4,17 +4,13 @@ import React from 'react'
 "data" [
     {
       "id": 1,
-      "title": "Morning Yoga",
+      "title": "Teachers WorkShop",
       "image": "path/to/morning_yoga.jpg",
-      "description": "Start your day with a relaxing yoga session.",
-      "status": "Active"
     },
     {
       "id": 2,
-      "title": "Coding Workshop",
+      "title": "Minecraft WorkShop",
       "image": "path/to/coding_workshop.jpg",
-      "description": "Learn the basics of web development.",
-      "status": "Upcoming"
     },
     {
       "id": 3,

@@ -7,7 +7,7 @@ export default {
   theme: {
     fontFamily:{
       "jetBrains" : "'JetBrains Mono', monospace",
-      "dev":"'Carlito', sans-serif"
+      "lato" : "'Lato', sans-serif"
     },
     extend: {},
   },
