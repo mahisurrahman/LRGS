@@ -6,7 +6,7 @@ function Navbar() {
   const links = (
     <div className="flex justify-end gap-x-10 items-center text-xl">
       <NavLink
-        to="/messages"
+        to="/"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
@@ -18,7 +18,7 @@ function Navbar() {
         Home
       </NavLink>
       <NavLink
-        to="/messages"
+        to="/activities"
         className={({ isActive, isPending }) =>
           isPending
             ? "pending"
