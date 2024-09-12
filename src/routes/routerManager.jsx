@@ -4,6 +4,7 @@ import HomeLayouts from "../layouts/homeLayouts";
 import HomePage from "../pages/Home/HomePage";
 import ActivitesData from "../pages/Activities/ActivitesData";
 import Team from "../pages/Team/Team";
+import Publications from "../pages/Publications/Publications";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/team",
         element: <Team/>,
+      },
+      {
+        path: "/publications",
+        element: <Publications/>
       }
     ]
   },

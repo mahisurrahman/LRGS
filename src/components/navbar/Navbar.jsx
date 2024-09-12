@@ -11,8 +11,8 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-yellow-800"
-            : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
+            ? "text-yellow-800"
+            : "duration-500 hover:duration-500 hover:text-yellow-600 hover:cursor-pointeer"
         }
       >
         Home
@@ -23,8 +23,8 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-yellow-800"
-            : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
+            ? "text-yellow-800"
+            : "duration-500 hover:duration-500 hover:text-yellow-600 hover:cursor-pointeer"
         }
       >
         Activities
@@ -35,8 +35,8 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-yellow-800"
-            : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
+            ? "text-yellow-800"
+            : "duration-500 hover:duration-500 hover:text-yellow-600 hover:cursor-pointeer"
         }
       >
         Publications
@@ -47,8 +47,8 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-yellow-800"
-            : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
+            ? "text-yellow-800"
+            : "duration-500 hover:duration-500 hover:text-yellow-600 hover:cursor-pointeer"
         }
       >
         Team
