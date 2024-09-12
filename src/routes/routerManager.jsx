@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import HomeLayouts from "../layouts/homeLayouts";
 import HomePage from "../pages/Home/HomePage";
-import Activities from "../pages/Activities/Activities";
 import ActivitesData from "../pages/Activities/ActivitesData";
+import Team from "../pages/Team/Team";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/activities",
         element: <ActivitesData/>,
+      },
+      {
+        path: "/team",
+        element: <Team/>,
       }
     ]
   },
