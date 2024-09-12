@@ -11,7 +11,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-500"
+            ? "underline text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
@@ -23,7 +23,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-500"
+            ? "underline text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
@@ -35,7 +35,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-500"
+            ? "underline text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
@@ -47,7 +47,7 @@ function Navbar() {
           isPending
             ? "pending"
             : isActive
-            ? "underline text-blue-500"
+            ? "underline text-blue-900"
             : "duration-500 hover:duration-500 hover:text-green-500 hover:cursor-pointeer"
         }
       >
@@ -56,7 +56,7 @@ function Navbar() {
     </div>
   );
   return (
-    <div className="h-[15vh] w-full bg-gray-300 text-black flex items-center">
+    <div className="h-[15vh] w-full bg-gray-200 text-black flex items-center">
       <div className="w-full grid grid-cols-3 mx-10">
         <div className="col-span-1">
           <img src={universityLogo} className="w-72 h-60" alt="" />

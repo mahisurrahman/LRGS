@@ -1,19 +1,28 @@
-import React from 'react'
-import moheLogo from "../../../public/logo.png";
+import React from "react";
+import { MdOutlinePublicOff } from "react-icons/md";
+import { MdLocalActivity } from "react-icons/md";
+import "./banner.css";
 
 function Banner() {
   return (
-    <div className='h-[85vh] bg-gray-300'>
-        <div className='mx-10 grid grid-cols-2'>
-            <div>
-
+    <div className="banner-img h-[85vh] bg-gray-300">
+      <div className="relative z-10 text-white h-full">
+        <div className="h-full w-full flex items-center justify-center px-20">
+          <div>
+            <h1 className="text-center text-5xl font-jetBrains font-extrabold">
+              Effective Learing on Solar Energy <br />
+              Technologies through Mobile-Research-Labratory for Secondary
+              Schools In <br /> Urban and Rural Areas
+            </h1>
+            <div className="mt-10 w-full h-full flex items-center justify-center gap-x-5">
+              <button className="flex items-center text-2xl font-bold bg-yellow-800 border-2 border-yellow-800 text-white px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:border-yellow-800 hover:bg-transparent hover:text-white"><span>ACTIVITIES</span> <MdLocalActivity className="ml-4"/></button>
+              <button className="flex items-center text-2xl font-bold bg-transparent border-2 border-white text-gwhite px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:bg-blue-800 hover:border-blue-800 hover:text-white"><span>PUBLICATIONS</span> <MdOutlinePublicOff className="ml-4"/></button>
             </div>
-            {/* <div className='bg-green-500 flex items-center'>
-                <img src={moheLogo} alt="" />
-            </div> */}
+          </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Banner
+export default Banner;
