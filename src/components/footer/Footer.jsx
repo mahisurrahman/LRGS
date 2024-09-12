@@ -10,13 +10,7 @@ function Footer() {
     </a>
 
     <span class="block text-sm text-center text-white">© 2024 LRGS. All Rights Reserved.
-		Built with 
-        <a href="https://flowbite.com"
-			class="text-purple-600 hover:underline"> React</a> and 
-            <a
-			href="https://tailwindcss.com" class="text-purple-600 hover:underline"> Tailwind
-			CSS
-        </a>.
+		
 	</span>
 
     <ul class="flex justify-center mt-5 space-x-5">
