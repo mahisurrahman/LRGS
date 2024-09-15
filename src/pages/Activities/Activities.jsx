@@ -2,7 +2,7 @@ import React from "react";
 
 const Activities = ({ data }) => {
   return (
-    <div className="md:h-[85vh]  flex items-center justify-center w-full">
+    <div className=" p-11 md:p-16 flex items-center justify-center w-full">
       <div className="">
         <h2 className="text-center font-extrabold text-5xl">
           ACTIVITIES
