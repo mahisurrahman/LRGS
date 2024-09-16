@@ -23,6 +23,7 @@ const Activities = ({ data }) => {
                   />
                 </div>
                 <div className="p-6">
+                  +
                   <h5 className="mb-2 text-xl font-medium leading-tight text-black tracking-widest text-center">
                     {activity.title}
                   </h5>
