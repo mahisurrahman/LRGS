@@ -19,10 +19,10 @@ function Banner() {
               Areas
             </p>
             <div className="mt-10 w-full h-full grid md:flex items-center justify-center gap-5">
-              <button className="flex items-center text-2xl font-bold bg-yellow-800 border-2 border-yellow-800 text-white px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:border-yellow-800 hover:bg-transparent hover:text-white">
+              <button className="flex items-center justify-center text-2xl font-bold bg-yellow-800 border-2 border-yellow-800 text-white px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:border-yellow-800 hover:bg-transparent hover:text-white">
                 <span>ACTIVITIES</span> <MdLocalActivity className="ml-4" />
               </button>
-              <button className="flex items-center text-2xl font-bold bg-transparent border-2 border-white text-gwhite px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:bg-blue-800 hover:border-blue-800 hover:text-white">
+              <button className="flex items-center justify-center text-2xl font-bold bg-transparent border-2 border-white text-gwhite px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:bg-blue-800 hover:border-blue-800 hover:text-white">
                 <span>PUBLICATIONS</span>{" "}
                 <MdOutlinePublicOff className="ml-4" />
               </button>

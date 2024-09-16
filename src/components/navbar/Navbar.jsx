@@ -64,7 +64,7 @@ function Navbar() {
   );
 
   return (
-    <div className="h-[13vh] w-full bg-gray-200 text-black flex items-center">
+    <div className="h-[15vh] w-full bg-gray-200 text-black flex items-center">
       <div className="w-full flex justify-between items-center px-4 md:px-10">
         {/* Logo */}
         <div className="w-40 md:w-60 lg:w-64">

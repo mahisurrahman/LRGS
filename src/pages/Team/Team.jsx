@@ -32,8 +32,8 @@ const Team = () => {
   ];
 
   return (
-    <div className="md:h-[110vh] flex justify-center items-center">
-      <div className="w-full">
+    <div className="pb-10 md:pb-0 mt-10 md:mt-0 md:h-[110vh] flex justify-center items-center">
+      <div className="w-full px-5 md:px-0">
         <h2 className="text-5xl tracking-tighter font-extrabold text-center">
           RESEARCH TEAM
         </h2>
@@ -54,12 +54,12 @@ const Team = () => {
                 </div>
                 <div className="mb-3">
                   <img
-                    className="rounded-2xl w-[20vw] h-[28vh] object-contain"
+                    className="rounded-2xl w-full md:w-[20vw] h-[28vh] object-contain"
                     src={activity.image}
                     alt={activity.title}
                   />
                 </div>
-                <div className="mb-3">
+                <div className="mt-10 md:mt-0 mb-1 md:mb-3">
                   <h5 className="text-sm font-semibold leading-tight text-black tracking-widest text-center">
                     {activity.status}
                   </h5>
