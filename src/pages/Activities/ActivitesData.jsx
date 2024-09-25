@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../../../public/Activitis/teacher.jpg'
-import img2 from '../../../public/Activitis/manicarft.jpg'
-import img3 from '../../../public/Activitis/robot.jpg'
+import img1 from '../../../public/Activitis/teachers workshop .jpg'
+import img2 from '../../../public/Activitis/minecraft workshop.jpg'
+import img3 from '../../../public/Activitis/roboticss workshop.jpg'
 import img4 from '../../../public/Activitis/penang.jpg'
 import Activities from './Activities'
 

@@ -15,9 +15,9 @@ const Activities = ({ data }) => {
                 key={key}
                 className="block max-w-[18rem]  rounded-lg hover:border border-gray-400 bg-gray-100  text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white"
               >
-                <div className="relative overflow-hidden bg-cover bg-no-repeat ">
+                <div className="relative overflow-hidden bg-cover bg-no-repeat">
                   <img
-                    className="rounded-t-lg"
+                    className="rounded-t-lg md:w-full md:h-[30vh] object-cover"
                     src={activity.image}
                     alt={activity.title}
                   />
