@@ -44,7 +44,7 @@ function Publications() {
                   <button
                     onClick={() =>
                       window.open(
-                        "../../../public/pdf/Revisiting Education Sustainability.pdf",
+                        "../../../pdf/Revisiting Education Sustainability.pdf",
                         "_blank"
                       )
                     }
@@ -53,7 +53,7 @@ function Publications() {
                     Read
                   </button>
                   <a
-                    href="../../../public/pdf/Revisiting Education Sustainability.pdf"
+                    href="../../../pdf/Revisiting Education Sustainability.pdf"
                     download="Revisitng Education Sustainability.pdf"
                     className="px-2 py-1 rounded bg-green-700 font-bold text-white"
                   >
@@ -74,7 +74,7 @@ function Publications() {
                   <button
                     onClick={() =>
                       window.open(
-                        "../../../public/UpdatedFiles/1566907-Article 1.pdf",
+                        "../../../UpdatedFiles/1566907-Article 1.pdf",
                         "_blank"
                       )
                     }
@@ -83,7 +83,7 @@ function Publications() {
                     Read
                   </button>
                   <a
-                    href="../../../public/UpdatedFiles/1566907-Article 1.pdf"
+                    href="../../../UpdatedFiles/1566907-Article 1.pdf"
                     download="Revisitng Education Sustainability.pdf"
                     className="px-2 py-1 rounded bg-green-700 font-bold text-white"
                   >
@@ -104,7 +104,7 @@ function Publications() {
                   <button
                     onClick={() =>
                       window.open(
-                        "../../../public/UpdatedFiles/1625359-EU-JER_11_4_2127.pdf",
+                        "../../../UpdatedFiles/1625359-EU-JER_11_4_2127.pdf",
                         "_blank"
                       )
                     }
@@ -113,7 +113,7 @@ function Publications() {
                     Read
                   </button>
                   <a
-                    href="../../../public/UpdatedFiles/1625359-EU-JER_11_4_2127.pdf"
+                    href="../../../UpdatedFiles/1625359-EU-JER_11_4_2127.pdf"
                     download="Revisitng Education Sustainability.pdf"
                     className="px-2 py-1 rounded bg-green-700 font-bold text-white"
                   >
@@ -134,7 +134,7 @@ function Publications() {
                   <button
                     onClick={() =>
                       window.open(
-                        "../../../public/UpdatedFiles/1819420_Open_Access_proceedings_Journal_of_Physics_Conference_series.pdf",
+                        "../../../UpdatedFiles/1819420_Open_Access_proceedings_Journal_of_Physics_Conference_series.pdf",
                         "_blank"
                       )
                     }
@@ -143,7 +143,7 @@ function Publications() {
                     Read
                   </button>
                   <a
-                    href="../../../public/UpdatedFiles/1819420_Open_Access_proceedings_Journal_of_Physics_Conference_series.pdf"
+                    href="../../../UpdatedFiles/1819420_Open_Access_proceedings_Journal_of_Physics_Conference_series.pdf"
                     download="Revisitng Education Sustainability.pdf"
                     className="px-2 py-1 rounded bg-green-700 font-bold text-white"
                   >
@@ -164,7 +164,7 @@ function Publications() {
                   <button
                     onClick={() =>
                       window.open(
-                        "../../../public/UpdatedFiles/2064497-IJIET-12316 updated manuscript.pdf",
+                        "../../../UpdatedFiles/2064497-IJIET-12316 updated manuscript.pdf",
                         "_blank"
                       )
                     }
@@ -173,7 +173,7 @@ function Publications() {
                     Read
                   </button>
                   <a
-                    href="../../../public/UpdatedFiles/2064497-IJIET-12316 updated manuscript.pdf"
+                    href="../../../UpdatedFiles/2064497-IJIET-12316 updated manuscript.pdf"
                     download="Revisitng Education Sustainability.pdf"
                     className="px-2 py-1 rounded bg-green-700 font-bold text-white"
                   >
@@ -194,7 +194,7 @@ function Publications() {
                   <button
                     onClick={() =>
                       window.open(
-                        "../../../public/UpdatedFiles/2128217-Secondary_Students_Awareness_on_Renewable_Energy_.pdf",
+                        "../../../UpdatedFiles/2128217-Secondary_Students_Awareness_on_Renewable_Energy_.pdf",
                         "_blank"
                       )
                     }
@@ -203,15 +203,13 @@ function Publications() {
                     Read
                   </button>
                   <a
-                    href="../../../public/UpdatedFiles/2128217-Secondary_Students_Awareness_on_Renewable_Energy_.pdf"
+                    href="../../../UpdatedFiles/2128217-Secondary_Students_Awareness_on_Renewable_Energy_.pdf"
                     download="Revisitng Education Sustainability.pdf"
                     className="px-2 py-1 rounded bg-green-700 font-bold text-white"
                   >
                     Download
                   </a>
-                  <button className="px-2 py-1 rounded bg-blue-700 font-bold text-white">
-                    Comment
-                  </button>
+                
                 </div>
               </div>
             </section>
