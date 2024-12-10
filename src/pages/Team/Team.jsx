@@ -32,54 +32,54 @@ const Team = () => {
   ];
 
   return (
-    <div className="md:h-[110vh] flex justify-center items-center">
-      <div className="w-full">
-        <h2 className="text-5xl tracking-tighter font-extrabold text-center">
-          RESEARCH TEAM
-        </h2>
-        <h5 className="tracking-wider pt-5 text-center text-wrap text-gray-600 text-sm font-bold">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-          <br /> Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </h5>
-        <div className="flex justify-center w-full">
-          <div className="w-full flex items-center justify-center gap-28 flex-wrap pt-10 rounded-lg">
-            {team.map((activity, key) => (
-              <div key={key} className="block max-w-[18rem] rounded-lg">
-                <div className="mb-3">
-                  <h5 className="text-xl font-semibold leading-tight text-black tracking-widest text-center">
-                    {activity.title}
-                  </h5>
-                </div>
-                <div className="mb-3">
-                  <img
-                    className="rounded-2xl w-[20vw] h-[28vh] object-contain"
-                    src={activity.image}
-                    alt={activity.title}
-                  />
-                </div>
-                <div className="mb-3">
-                  <h5 className="text-sm font-semibold leading-tight text-black tracking-widest text-center">
-                    {activity.status}
-                  </h5>
-                </div>
-                <div className="my-3 text-justify">
-                  <h5 className="text-xs text-black text-wrap leading-tight tracking-widest text-justify">
-                    {activity.description}
-                  </h5>
-                </div>
-                <div className="mt-10 text-black text-center flex justify-center">
-                  <button className="border w-20 rounded border-black hover:scale-105 duration-500">
-                    {activity.cv}
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+    <div className="min-h-screen flex justify-center items-center py-16 w-full">
+    <div className="w-full max-w-6xl px-4">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center tracking-tight">
+        RESEARCH TEAM
+      </h2>
+      <h5 className="pt-5 text-center text-gray-600 text-sm sm:text-base md:text-lg font-bold leading-relaxed px-2 md:px-6">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <br /> Lorem Ipsum has been the industry's standard dummy text ever since
+        the 1500s.
+      </h5>
+      <div className="flex justify-center w-full mt-8">
+      <div className="flex items-center justify-center flex-wrap gap-10 md:gap-28">
+  {team.map((activity, key) => (
+    <div
+      key={key}
+      className="w-full sm:w-[18rem] h-[32rem] flex flex-col items-center text-center rounded-lg bg-white shadow-md p-4"
+    >
+      {/* Title */}
+      <h5 className="text-lg sm:text-xl font-semibold text-black tracking-widest h-[2.5rem] flex items-center justify-center">
+        {activity.title}
+      </h5>
+
+      {/* Image */}
+      <div className="my-3">
+        <img
+          className="rounded-2xl w-full h-[14rem] object-cover"
+          src={activity.image}
+          alt={activity.title}
+        />
+      </div>
+
+      {/* Status */}
+      <h5 className="text-sm sm:text-base font-semibold text-black tracking-widest h-[2rem] flex items-center justify-center">
+        {activity.status}
+      </h5>
+
+      {/* Description */}
+      <p className="mt-3 text-xs sm:text-sm text-justify text-gray-700 tracking-wide leading-relaxed h-[6rem] overflow-hidden">
+        {activity.description}
+      </p>
+    </div>
+  ))}
+</div>
+
       </div>
     </div>
+  </div>
+  
   );
 };
 
