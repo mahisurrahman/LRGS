@@ -138,39 +138,6 @@ function Publications() {
               </div>
               <div className="col-span-2 text-left w-full pr-5">
                 <p className="font-bold text-sm">
-                  Revisiting Education for Sustainable Development
-                </p>
-                <div className="mt-5 flex gap-x-2 text-xs items-center justify-start w-full">
-                  <button
-                    onClick={() =>
-                      window.open(
-                        "../../../public/pdf/Revisiting Education Sustainability.pdf",
-                        "_blank"
-                      )
-                    }
-                    className="px-4 py-1 rounded bg-yellow-800 font-bold text-white"
-                  >
-                    Read
-                  </button>
-                  <a
-                    href="../../../public/pdf/Revisiting Education Sustainability.pdf"
-                    download="Revisitng Education Sustainability.pdf"
-                    className="px-2 py-1 rounded bg-green-700 font-bold text-white"
-                  >
-                    Download
-                  </a>
-                  <button className="px-2 py-1 rounded bg-blue-700 font-bold text-white">
-                    Comment
-                  </button>
-                </div>
-              </div>
-            </section>
-            <section className="grid grid-cols-3 items-center w-full border-2 h-[20vh] rounded-lg shadow-md">
-              <div className="col-span-1 flex items-center justify-center">
-                <img className="w-20 h-20 object-fit" src={pdfIcon} alt="" />
-              </div>
-              <div className="col-span-2 text-left w-full pr-5">
-                <p className="font-bold text-sm">
                   Mobile Learning to Promote Renewable Energy
                 </p>
                 <div className="mt-5 flex gap-x-2 text-xs items-center justify-start w-full">
