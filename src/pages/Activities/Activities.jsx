@@ -17,7 +17,7 @@ const Activities = ({ data }) => {
               >
                 <div className="relative overflow-hidden bg-cover bg-no-repeat ">
                   <img
-                    className="rounded-t-lg"
+                    className="rounded-t-lg w-80 h-60 object-cover"
                     src={activity.image}
                     alt={activity.title}
                   />

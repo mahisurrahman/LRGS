@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from '../../../public/Activitis/teacher.jpg'
-import img2 from '../../../public/Activitis/manicarft.jpg'
-import img3 from '../../../public/Activitis/robot.jpg'
-import img4 from '../../../public/Activitis/penang.jpg'
+import img1 from '../../../public/UpdatedFiles/6291922279285766987.jpg'
+import img2 from '../../../public/UpdatedFiles/6291922279285766988.jpg'
+import img3 from '../../../public/UpdatedFiles/6291922279285766989.jpg'
+import img4 from '../../../public/UpdatedFiles/6291922279285766990.jpg'
 import Activities from './Activities'
 
 
@@ -13,7 +13,7 @@ const ActivitesData = () => {
   const data = [
     {
       title: "Teachers WorkShop",
-      image: img1,
+      image: img4,
     },
     {
       title: "Minecraft WorkShop",
@@ -25,7 +25,7 @@ const ActivitesData = () => {
     },
     {
       title: "Workshop in Penang",
-      image: img4,
+      image: img1,
     }
   ]
   return (
