@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlinePublicOff } from "react-icons/md";
 import { MdLocalActivity } from "react-icons/md";
 import "./banner.css";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -20,10 +21,10 @@ function Banner() {
             </p>
             <div className="mt-10 w-full h-full grid md:flex items-center justify-center gap-5">
               <button className="flex items-center justify-center text-2xl font-bold bg-yellow-800 border-2 border-yellow-800 text-white px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:border-yellow-800 hover:bg-transparent hover:text-white">
-                <span>ACTIVITIES</span> <MdLocalActivity className="ml-4" />
+                <Link to='/activities'>ACTIVITIES</Link> <MdLocalActivity className="ml-4" />
               </button>
               <button className="flex items-center justify-center text-2xl font-bold bg-transparent border-2 border-white text-gwhite px-8 py-3 rounded-3xl duration-500 hover:duration-500 hover:cursor-pointer hover:bg-blue-800 hover:border-blue-800 hover:text-white">
-                <span>PUBLICATIONS</span>{" "}
+                <Link to='/publications'>PUBLICATIONS</Link>{" "}
                 <MdOutlinePublicOff className="ml-4" />
               </button>
             </div>
