@@ -32,7 +32,7 @@ function Publications() {
           <div className="col-span-4">
             <HighchartsReact highcharts={Highcharts} options={options} />
           </div>
-          <div className="mx-10 col-span-8 h-[50vh] overflow-y-scroll grid md:grid-cols-2 gap-x-5 gap-y-5">
+          <div className="md:mx-10 col-span-8 h-[50vh] overflow-y-scroll grid md:grid-cols-2 gap-x-5 gap-y-5">
             <section className="grid grid-cols-3 items-center w-full border-2 h-[20vh] rounded-lg shadow-md">
               <div className="col-span-1 flex items-center justify-center">
                 <img className="w-20 h-20 object-fit" src={pdfIcon} alt="" />
