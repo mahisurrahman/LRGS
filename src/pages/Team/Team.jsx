@@ -32,12 +32,12 @@ const Team = () => {
   ];
 
   return (
-    <div className="md:h-[110vh] flex justify-center items-center">
+    <div className="md:h-[110vh] flex justify-center items-center pt-16 md:pt-16 lg:pt-0  w-full">
       <div className="w-full">
-        <h2 className="text-5xl tracking-tighter font-extrabold text-center">
+        <h2 className="text-5xl tracking-tighter font-extrabold text-center ">
           RESEARCH TEAM
         </h2>
-        <h5 className="tracking-wider pt-5 text-center text-wrap text-gray-600 text-sm font-bold">
+        <h5 className="tracking-wider pt-5 text-center text-wrap text-gray-600 text-sm font-bold p-6 ">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
           <br /> Lorem Ipsum has been the industry's standard dummy text ever
@@ -52,9 +52,9 @@ const Team = () => {
                     {activity.title}
                   </h5>
                 </div>
-                <div className="mb-3">
+                <div className="mb-3 flex justify-center">
                   <img
-                    className="rounded-2xl w-[20vw] h-[28vh] object-contain"
+                    className="rounded-2xl w-[30vw] h-[28vh] object-contain"
                     src={activity.image}
                     alt={activity.title}
                   />
@@ -70,9 +70,9 @@ const Team = () => {
                   </h5>
                 </div>
                 <div className="mt-10 text-black text-center flex justify-center">
-                  <button className="border w-20 rounded border-black hover:scale-105 duration-500">
+                  {/* <button className="border w-20 rounded border-black hover:scale-105 duration-500">
                     {activity.cv}
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}
