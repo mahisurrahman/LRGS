@@ -16,7 +16,10 @@ const Activities = ({ data }) => {
         <h2 className="text-center font-extrabold text-5xl">
           ACTIVITIES
         </h2>
-        <h5 className='pt-5 text-center text-gray-600 text-wrap text-sm font-bold tracking-widest'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h5>
+        <h5 className="pt-5 text-center text-gray-600 text-wrap text-sm font-bold tracking-widest">
+          Explore Our Exciting Range of Activities and Experiences<br />
+          Designed to Inspire and Engage!
+        </h5>
         <div className="flex justify-center w-full  ">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10  pt-16  rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark ">
             {data.map((activity, key) => (

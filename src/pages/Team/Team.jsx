@@ -38,10 +38,9 @@ const Team = () => {
         RESEARCH TEAM
       </h2>
       <h5 className="pt-5 text-center text-gray-600 text-sm sm:text-base md:text-lg font-bold leading-relaxed px-2 md:px-6">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        <br /> Lorem Ipsum has been the industry's standard dummy text ever since
-        the 1500s.
-      </h5>
+  Meet the brilliant minds driving innovation and research.  
+  <br /> Our dedicated team combines expertise, passion, and a shared vision to lead impactful initiatives.
+</h5>
       <div className="flex justify-center w-full mt-8">
       <div className="flex items-center justify-center flex-wrap gap-10 md:gap-28">
   {team.map((activity, key) => (

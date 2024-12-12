@@ -24,11 +24,10 @@ function Publications() {
       <div className="w-full">
         <h2 className="text-center font-extrabold text-5xl">PUBLICATIONS</h2>
         <h5 className="pt-5 lg:text-center text-gray-600 text-wrap text-sm font-bold tracking-widest text-justify px-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-          <br /> Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </h5>
+  Discover a curated collection of insightful publications spanning diverse 
+  topics, showcasing groundbreaking research and innovative perspectives.
+  <br /> Explore articles that inspire, inform, and drive academic excellence.
+</h5>
         <div className="mt-5  items-center w-full">
        
           <div className="mx-20  grid md:grid-cols-2 gap-x-5 gap-y-5">

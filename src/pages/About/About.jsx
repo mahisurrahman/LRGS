@@ -6,10 +6,8 @@ function About() {
       <div>
         <div className="text-center px-5 md:px-0">
           <h1 className="text-center text-wrap text-3xl md:text-5xl lg:text-7xl font-extrabold">About The Project</h1>
-          <p className="mt-4 tex-wrap">
+          <h5 className="pt-5 text-center text-gray-600 text-wrap text-lg  text-wrap font-bold tracking-widest">Developing a Framework for Mobile Learning in Photovoltaic Technology</h5>
 
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ipsam nihil molestias animi in cumque necessitatibus, <br /> adipisci ab rem laboriosam, aliquid aut quasi ut eius eos beatae tempora optio fugiat? Libero, ullam aut? Possimus accusamus itaque repellendus, eos eius nemo.
-          </p>
         </div>
         <div className="md:px-40 md:mt-16 grid grid-cols-1 md:grid-cols-12 w-full">
             <div className="col-span-9 border-r-2 border-yellow-800 px-10 py-5 text-md text-justify text-wrap">
